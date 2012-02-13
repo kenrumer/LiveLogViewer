@@ -1,0 +1,51 @@
+DIV.folder_view.context_menu {
+  border: 1px solid #9CBEE6;
+  margin: 2px 0px 2px 0px;
+  padding: 2px 0px 2px 0px;
+  background-color: #FFFFFF;
+  font-family: Arial;
+  font-size: 9px;
+  text-align: center;
+}
+
+DIV.context_menu.horizontal_rule {
+  border-bottom: 1px solid #9CBEE6;
+  margin: 2px 0px 2px 0px;
+  padding: 2px 0px 2px 0px;
+  background-color: #FFFFFF;
+  left: 6px;
+  right: 6px;
+  height: 1px;
+}
+
+A.context_menu {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  border: 1px solid white;
+  left: 6px;
+  right: 6px;
+  font-size: 11px;
+  text-decoration: none;
+  text-align: left;
+}
+
+A.context_menu:hover {
+  background-color: #ECF4F9;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+IMG.context_menu.icon {
+  margin: 0px;
+  padding: 1px 3px 1px 3px;
+  border: none;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+}
+
+A.context_menu.indent {
+  text-indent: 20px;
+}

@@ -1,0 +1,34 @@
+table.sortable th.sortheader {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EBEADB;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid #ACA899;
+  border-right: 1px solid black;
+}
+
+table.sortable {
+  font-family: arial, "lucida console", sans-serif;
+  font-size: 12px;
+}
+
+A {
+  color: black;
+}
+
+A:link {
+  text-decoration: none;
+}
+
+A:visited {
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+A:active {
+  text-decoration: none;
+}

@@ -1,0 +1,69 @@
+DIV.file_viewer.blue_steel.panel.top {
+  background-color: #C6DBFF;
+}
+
+DIV.file_viewer.blue_steel.panel.bottom {
+  background-color: #C6DBFF;
+}
+
+BODY {
+  margin:0px;
+  padding:0px;
+  height:100%;
+}
+
+IMG.file_viewer.tool_image {
+  height:24px;
+  width:24px;
+  padding:5px 5px 5px 5px;
+  border:none;
+}
+
+DIV.file_viewer.panel.top {
+  position:fixed;
+  left:0px;
+  top:0px;
+  right:0px;
+  padding:0px 5px 0px 0px;
+  height:34px;
+}
+
+DIV.file_viewer.panel.content {
+  position: fixed;
+  left:0px;
+  right:0px;
+  padding:0px;
+  margin:0px;
+  background-color: #FFFFFF;
+  border-style:inset;
+  overflow:auto;
+  top:0px;
+  height:100%;
+}
+
+DIV.file_viewer.panel.bottom {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  height:34px;
+}
+
+.HardBreak {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+TABLE.file_viewer {
+  position:relative;
+  top: -17px;
+  font-size: 8pt;
+}
+
+TH.file_viewer {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}

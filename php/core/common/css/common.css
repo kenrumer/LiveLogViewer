@@ -1,0 +1,106 @@
+BODY.common.blue_steel {
+  background-color: #C7DBFF;
+}
+
+DIV.common.blue_steel.panel {
+  border: 1px solid #002C94;
+}
+
+DIV.common.blue_steel.title {
+  background-color: black;
+  background-image: url('/common/images/category_title.png');
+  background-repeat: repeat-x;
+  color: white;
+}
+
+DIV.common.blue_steel.content {
+  background-color: white;
+}
+
+BODY.common {
+  margin: 0px;
+  padding: 0px;
+}
+
+DIV.common.background {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+}
+
+DIV.common.left.top.panel {
+  padding: 0px;
+  margin: 0px 5px 5px 0px;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.common.left.bottom.panel {
+  padding: 0px;
+  margin: 5px 5px 0px 0px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+DIV.common.right.top.panel {
+  padding: 0px;
+  margin: 0px 0px 5px 5px;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+DIV.common.right.bottom.panel {
+  padding: 0px;
+  margin: 5px 0px 0px 5px;
+  overflow: auto;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+DIV.common.title {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 24px;
+  text-indent: 4px;
+  font-size: 11pt;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+SPAN.common.title {
+  position: relative;
+  top: 3px;
+}
+
+DIV.common.content.with_title {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  top: 24px;
+  bottom: 0px;
+}
+
+DIV.common.content.without_title {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 100%;
+}

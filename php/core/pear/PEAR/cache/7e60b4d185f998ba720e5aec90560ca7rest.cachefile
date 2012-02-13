@@ -1,0 +1,29 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/p/html_template_it";}s:8:"_content";s:16:"HTML_Template_IT";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.2.1";s:2:"st";s:6:"stable";s:1:"l";s:20:"Modified BSD license";s:1:"m";s:3:"dsp";s:1:"s";s:20:"Integrated Templates";s:1:"d";s:1195:"HTML_Template_IT:
+Simple template API.
+The Isotemplate API is somewhat tricky for a beginner although it is the best
+one you can build. template::parse() [phplib template = Isotemplate] requests
+you to name a source and a target where the current block gets parsed into.
+Source and target can be block names or even handler names. This API gives you
+a maximum of fexibility but you always have to know what you do which is
+quite unusual for php skripter like me.
+
+I noticed that I do not any control on which block gets parsed into which one.
+If all blocks are within one file, the script knows how they are nested and in
+which way you have to parse them. IT knows that inner1 is a child of block2, there's
+no need to tell him about this.
+Features :
+  * Nested blocks
+  * Include external file
+  * Custom tags format (default {mytag})
+
+HTML_Template_ITX :
+With this class you get the full power of the phplib template class.
+You may have one file with blocks in it but you have as well one main file
+and multiple files one for each block. This is quite usefull when you have
+user configurable websites. Using blocks not in the main template allows
+you to modify some parts of your layout easily.";s:2:"da";s:19:"2006-08-25 10:11:45";s:1:"n";s:365:"- Deprecate $callbackobject parameter in setCallbackFunction
+- Introduce $expandCallbackParameters parameter to setCallbackFunction to support 
+  callbacks that expect to get the parameters in a regular way, not as an array
+- #7651, allow dots in placeholder and block names 
+- #7611, wrong array initialized, the same object cannot be
+  used for multiple templates";s:1:"f";s:5:"21565";s:1:"g";s:46:"http://pear.php.net/get/HTML_Template_IT-1.2.1";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.2.1.xml";}}}

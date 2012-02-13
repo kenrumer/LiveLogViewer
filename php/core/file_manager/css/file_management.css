@@ -1,0 +1,55 @@
+DIV.common.blue_steel.panel.whole_page {
+  background-color:white;
+  padding: 10px;
+}
+INPUT.file_management.textbox2 {
+  position: absolute;
+  left: 400px;
+}
+INPUT.file_management.textbox3 {
+  position: absolute;
+  left: 400px;
+}
+DIV.file_management.rotate_options {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.rotate_on_size {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.rotate_size {
+  display: none;
+}
+DIV.file_management.rotate_on_period {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.rotate_period {
+  display: none;
+}
+DIV.file_management.expire_options {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.expire_on_size {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.expire_size {
+  display: none;
+}
+DIV.file_management.expire_on_count {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+DIV.file_management.expire_count {
+  display: none;
+}
+

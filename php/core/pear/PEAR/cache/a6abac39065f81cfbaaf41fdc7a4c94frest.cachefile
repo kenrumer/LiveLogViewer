@@ -1,0 +1,7 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/p/html_table";}s:8:"_content";s:10:"HTML_Table";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:3:"1.4";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:7:"mansion";s:1:"s";s:88:"PEAR::HTML_Table makes the design of HTML tables easy, flexible, reusable and efficient.";s:1:"d";s:328:"The PEAR::HTML_Table package provides methods for easy and efficient design of HTML tables.
+* Lots of customization options.
+* Tables can be modified at any time.
+* The logic is the same as standard HTML editors.
+* Handles col and rowspans. 
+* PHP code is shorter, easier to read and to maintain.
+* Tables options can be reused.";s:2:"da";s:19:"2003-04-10 21:17:00";s:1:"n";s:50:"* Fix a notice in _isAttributeArray (Tommy Ipsen).";s:1:"f";s:4:"5976";s:1:"g";s:38:"http://pear.php.net/get/HTML_Table-1.4";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"package.1.4.xml";}}}

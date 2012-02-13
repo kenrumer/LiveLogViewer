@@ -1,0 +1,39 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/p/html_table";}s:8:"_content";s:10:"HTML_Table";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.6.0";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP_License";s:1:"m";s:5:"dufuz";s:1:"s";s:88:"PEAR::HTML_Table makes the design of HTML tables easy, flexible, reusable and efficient.";s:1:"d";s:429:"The PEAR::HTML_Table package provides methods for easy and efficient design of HTML tables.
+ - Lots of customization options.
+ - Tables can be modified at any time.
+ - The logic is the same as standard HTML editors.
+ - Handles col and rowspans.
+ - PHP code is shorter, easier to read and to maintain.
+ - Tables options can be reused.
+
+For auto filling of data and such then check out http://pear.php.net/package/HTML_Table_Matrix";s:2:"da";s:19:"2005-10-21 15:37:06";s:1:"n";s:1295:"- Mark Wieseman is now a active developer
+- td/th aren't longer case sensitive in addRow() and relative functions
+- Added the possibility to specify on which row the cols should be counted. (Bertrand)
+- #786, if the value was a zero, the cell content was converted to the autofill value. (Bertrand)
+- #1734, _adjustEnd added a extra empty column if there was only one column being processed
+- setHeaderContents can now accept attributes, but it's optional. request #2030
+- Request #4944: setCellContents() now accepts an array as $contents ($col will be used as the start column then).
+- Request #4988: addRow() accepts now array keys as column numbers.
+- Added support for thead, tfoot and tbody on the courtesy of Mark Wiesemann <wiesemann@php.net>
+
+Usage:
+
+- current behaviour is still available:
+$table = new HTML_Table();
+$table->setCellContents(...);
+echo $table->toHtml();
+
+- new alternative with same result:
+$table = new HTML_Table();
+$body =& $table->getBody();
+$body->setCellContents(...);
+echo $table->toHtml();
+
+- using the new grouping:
+$table = new HTML_Table(null, null, true);
+$head =& $table->getHeader();
+$foot =& $table->getFooter();
+$body =& $table->getBody();
+$head->setCellContents(...);
+$body->setCellContents(...);
+echo $table->toHtml();  // <tfoot> will not be rendered";s:1:"f";s:4:"8522";s:1:"g";s:40:"http://pear.php.net/get/HTML_Table-1.6.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.6.0.xml";}}}

@@ -1,0 +1,246 @@
+div.common.panel.user_administration {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+DIV.user_administration.user_name.label {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.user_name.text_box {
+  position: absolute;
+  left: 130px;
+  top: 30px;
+  width: 150px;
+}
+
+DIV.user_administration.add_button {
+  position: absolute;
+  left: 205px;
+  top: 55px;
+  width: 75px;
+}
+
+INPUT.user_administration.add_button {
+  height: 25px;
+  width: 75px;
+}
+
+DIV.user_administration.display_name.label {
+  position: absolute;
+  left: 285px;
+  top: 30px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.display_name.text_box {
+  position: absolute;
+  left: 400px;
+  top: 30px;
+  width: 150px;
+}
+
+DIV.user_administration.first_name.label {
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.first_name.text_box {
+  position: absolute;
+  left: 130px;
+  top: 60px;
+  width: 150px;
+}
+
+DIV.user_administration.last_name.label {
+  position: absolute;
+  left: 285px;
+  top: 60px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.last_name.text_box {
+  position: absolute;
+  left: 400px;
+  top: 60px;
+  width: 150px;
+}
+
+DIV.user_administration.office.label {
+  position: absolute;
+  left: 15px;
+  top: 90px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.office.text_box {
+  position: absolute;
+  left: 130px;
+  top: 90px;
+  width: 150px;
+}
+
+DIV.user_administration.department.label {
+  position: absolute;
+  left: 285px;
+  top: 90px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.department.text_box {
+  position: absolute;
+  left: 400px;
+  top: 90px;
+  width: 150px;
+}
+
+DIV.user_administration.title.label {
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.title.text_box {
+  position: absolute;
+  left: 130px;
+  top: 120px;
+  width: 150px;
+}
+
+DIV.user_administration.manager.label {
+  position: absolute;
+  left: 285px;
+  top: 120px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.manager.text_box {
+  position: absolute;
+  left: 400px;
+  top: 120px;
+  width: 150px;
+}
+
+DIV.user_administration.email_address.label {
+  position: absolute;
+  left: 15px;
+  top: 150px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.email_address.text_box {
+  position: absolute;
+  left: 130px;
+  top: 150px;
+  width: 150px;
+}
+
+DIV.user_administration.sms_number.label {
+  position: absolute;
+  left: 285px;
+  top: 150px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.sms_number.text_box {
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  width: 150px;
+}
+
+DIV.user_administration.phone_number.label {
+  position: absolute;
+  left: 15px;
+  top: 180px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.phone_number.text_box {
+  position: absolute;
+  left: 130px;
+  top: 180px;
+  width: 150px;
+}
+
+DIV.user_administration.cell_phone_number.label {
+  position: absolute;
+  left: 285px;
+  top: 180px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.cell_phone_number.text_box {
+  position: absolute;
+  left: 400px;
+  top: 180px;
+  width: 150px;
+}
+
+DIV.user_administration.group.label {
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  width: 110px;
+  text-align: right;
+}
+
+DIV.user_administration.group.select {
+  position: absolute;
+  left: 130px;
+  top: 210px;
+  width: 150px;
+}
+
+DIV.user_administration.ldap_update_button {
+  position: absolute;
+  left: 325px;
+  top: 235px;
+}
+
+INPUT.user_administration.ldap_update_button {
+  width: 75px;
+  height: 25px;
+}
+
+DIV.user_administration.remove_button {
+  position: absolute;
+  left: 405px;
+  top: 235px;
+}
+
+INPUT.user_administration.remove_button {
+  width: 75px;
+  height: 25px;
+}
+
+DIV.user_administration.save_button {
+  position: absolute;
+  left: 485px;
+  top: 235px;
+}
+
+INPUT.user_administration.save_button {
+  width: 75px;
+  height: 25px;
+}

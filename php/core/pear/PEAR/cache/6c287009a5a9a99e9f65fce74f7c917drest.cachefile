@@ -1,0 +1,9 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:25:"/rest/p/pear_frontend_web";}s:8:"_content";s:17:"PEAR_Frontend_Web";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"0.7.3";s:2:"st";s:4:"beta";s:1:"l";s:11:"PHP License";s:1:"m";s:4:"tias";s:1:"s";s:29:"Webbased PEAR Package Manager";s:1:"d";s:350:"The most accessible way to manage your pear-compatible packages.
+
+This frontend's most valuable features are:
+* Webbased: no remote shell access needed.
+* Fully channel aware: no default channel, all channels are managed at the same time
+* Unique docviewer: read the installed documentation in your borwser.
+* Plus all features of the PEAR Installer.";s:2:"da";s:19:"2008-08-03 10:01:05";s:1:"n";s:215:"* Fix bug #13703 no empty channel url
+* fix bug #13714 'package information' link on installing local file
+* for the open_basedir prisoners, don't allow PEAR to search for a temp dir (would use /tmp), see bug #13167";s:1:"f";s:5:"53152";s:1:"g";s:47:"http://pear.php.net/get/PEAR_Frontend_Web-0.7.3";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.0.7.3.xml";}}}

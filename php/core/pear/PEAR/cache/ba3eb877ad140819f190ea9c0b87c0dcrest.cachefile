@@ -1,0 +1,8 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/p/mime_type";}s:8:"_content";s:9:"MIME_Type";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.1.3";s:2:"st";s:6:"stable";s:1:"l";s:15:"PHP License 3.0";s:1:"m";s:7:"cweiske";s:1:"s";s:41:"Utility class for dealing with MIME types";s:1:"d";s:315:"Provide functionality for dealing with MIME types.
+* Parse MIME type.
+* Supports full RFC2045 specification.
+* Many utility functions for working with and determining info about types.
+* Most functions can be called statically.
+* Autodetect a file's mime-type, either with mime_content_type() or the 'file' command.";s:2:"da";s:19:"2008-10-25 12:42:14";s:1:"n";s:83:"- Coding Standards cleanup
+- parameters are cleared when parsing again
+- more tests";s:1:"f";s:4:"8805";s:1:"g";s:39:"http://pear.php.net/get/MIME_Type-1.1.3";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.1.3.xml";}}}

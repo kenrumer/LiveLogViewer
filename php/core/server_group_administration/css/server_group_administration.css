@@ -1,0 +1,340 @@
+div.common.panel.server_group_administration {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+select.server_group_administration.server_group_list {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 400px;
+  height: 220px;
+}
+
+input.server_group_administration.edit_button {
+  position: absolute;
+  left: 420px;
+  top: 35px;
+  width: 70px;
+  height: 25px;
+}
+
+input.server_group_administration.remove_button {
+  position: absolute;
+  left: 420px;
+  top: 70px;
+  width: 70px;
+  height: 25px;
+}
+
+input.server_group_administration.add_button {
+  position: absolute;
+  left: 10px;
+  top: 240px;
+  width: 70px;
+  height: 25px;
+}
+
+div.server_group_administration.status_panel {
+  position: absolute;
+  left: 15px;
+  top: 80px;
+  width: 640px;
+  height: 50px;
+  border: 1px solid black;
+  color: red;
+  overflow: auto;
+}
+
+div.server_group_administration.paths_panel {
+  position: absolute;
+  left: 15px;
+  top: 260px;
+  width: 640px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+select.server_group_administration.paths_list {
+  position: absolute;
+  left: 15px;
+  top: 360px;
+  height: 20px;
+  width: 560px;
+}
+
+input.server_group_administration.paths_add {
+  position: absolute;
+  left: 580px;
+  top: 365px;
+  height: 25px;
+  width: 75px;
+}
+
+div.server_group_administration.server_groups_panel {
+  position: absolute;
+  left: 15px;
+  top: 395px;
+  width: 640px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+select.server_group_administration.server_groups_list {
+  position: absolute;
+  left: 15px;
+  top: 495px;
+  height: 25px;
+  width: 560px;
+}
+
+input.server_group_administration.server_groups_add {
+  position: absolute;
+  left: 580px;
+  top: 500px;
+  height: 25px;
+  width: 75px;
+}
+
+label.server_group_administration.name {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 15px;
+  text-align: right;
+}
+
+div.server_group_administration.name {
+  position: absolute;
+  left: 175px;
+  width: 150px;
+  height: 25px;
+  top: 15px;
+}
+
+input.server_group_administration.name {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.description {
+  position: absolute;
+  left: 345px;
+  width: 150px;
+  height: 25px;
+  top: 15px;
+  text-align: right;
+}
+
+div.server_group_administration.description {
+  position: absolute;
+  left: 505px;
+  width: 150px;
+  height: 25px;
+  top: 15px;
+}
+
+input.server_group_administration.description {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.parent_server_group {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 50px;
+  text-align: right;
+}
+
+div.server_group_administration.parent_server_group {
+  position: absolute;
+  left: 175px;
+  width: 150px;
+  height: 25px;
+  top: 50px;
+}
+
+input.server_group_administration.parent_server_group {
+  width: 150px;
+  height: 20px;
+}
+
+input.server_group_administration.readonly {
+  background-color: #CCCCCC;
+}
+
+label.server_group_administration.primary_ip {
+  position: absolute;
+  left: 345px;
+  width: 150px;
+  height: 25px;
+  top: 50px;
+  text-align: right;
+}
+
+div.server_group_administration.primary_ip {
+  position: absolute;
+  left: 505px;
+  width: 150px;
+  height: 25px;
+  top: 50px;
+}
+
+input.server_group_administration.primary_ip {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.os {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 85px;
+  text-align: right;
+}
+
+div.server_group_administration.os {
+  position: absolute;
+  left: 175px;
+  width: 150px;
+  height: 25px;
+  top: 85px;
+}
+
+input.server_group_administration.os {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.facility {
+  position: absolute;
+  left: 345px;
+  width: 150px;
+  height: 25px;
+  top: 85px;
+  text-align: right;
+}
+
+div.server_group_administration.facility {
+  position: absolute;
+  left: 505px;
+  width: 150px;
+  height: 25px;
+  top: 85px;
+}
+
+input.server_group_administration.facility {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.service_tag {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 120px;
+  text-align: right;
+}
+
+div.server_group_administration.service_tag {
+  position: absolute;
+  left: 175px;
+  width: 150px;
+  height: 25px;
+  top: 120px;
+}
+
+input.server_group_administration.service_tag {
+  width: 150px;
+  height: 20px;
+}
+
+label.server_group_administration.end_of_service_life {
+  position: absolute;
+  left: 345px;
+  width: 150px;
+  height: 25px;
+  top: 120px;
+  text-align: right;
+}
+
+div.server_group_administration.end_of_service_life {
+  position: absolute;
+  left: 505px;
+  width: 150px;
+  height: 25px;
+  top: 120px;
+}
+
+input.server_group_administration.end_of_service_life {
+  width: 150px;
+  height: 20px;
+}
+
+div.server_group_administration.outer_panel {
+  background-color: #EDF2F7;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 170px;
+  width: 675px;
+}
+
+div.server_group_administration.os_type_unix {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 150px;
+}
+
+div.server_group_administration.os_type_win {
+  position: absolute;
+  left: 15px;
+  width: 150px;
+  height: 25px;
+  top: 175px;
+}
+
+input.server_group_administration.os_type_win {
+  height: 20px;
+}
+
+input.server_group_administration.os_type_unix {
+  height: 20px;
+}
+
+div.server_group_administration.ok_button {
+  position: absolute;
+  left: 520px;
+  width: 70px;
+  height: 25px;
+  top: 135px;
+}
+
+input.server_group_administration.ok_button {
+  width: 70px;
+  height: 25px;
+}
+
+div.server_group_administration.cancel_button {
+  position: absolute;
+  left: 595px;
+  width: 70px;
+  height: 25px;
+  top: 135px;
+}
+
+input.server_group_administration.cancel_button {
+  width: 70px;
+  height: 25px;
+}

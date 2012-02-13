@@ -1,0 +1,148 @@
+BODY {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+TD.compare_items.file_name {
+  background-color: #F7F7F7;
+}
+
+DIV.compare_items.panel.top {
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 30px;
+}
+
+DIV.compare_items.panel.bottom {
+  position: absolute;
+  height: 30px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid black;
+  background-color: white;
+}
+
+DIV.compare_items.context_menu {
+  position: absolute;
+  width: 150px;
+  height: 147px;
+  border: 1px solid black;
+  background-color: white;
+  display: none;
+}
+
+DIV.compare_items.message_area {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  color: red;
+}
+
+DEL {
+  background-color: #CC66CC;
+}
+
+INS {
+  background-color: #66CC99;
+}
+
+IMG.compare_items.tool_image {
+  height:24px;
+  width:24px;
+  padding:5px 5px 5px 5px;
+  border:none;
+}
+
+DIV.compare_items.show_results.panel.top {
+  position: fixed;
+  left:0px;
+  top:0px;
+  right:0px;
+  padding:0px 5px 0px 0px;
+  height:34px;
+  background-color: #C6DBFF;
+  overflow: hidden;
+}
+
+DIV.compare_items.show_results.panel.content {
+  position: fixed;
+  left:0px;
+  right:0px;
+  padding:0px;
+  margin:0px;
+  background-color: #FFFFFF;
+  border-style:inset;
+  overflow:auto;
+  top:35px;
+  bottom:45px;
+}
+
+
+DIV.compare_items.show_results.panel.bottom {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  height:44px;
+  background-color: #C6DBFF;
+}
+
+.HardBreak {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+TABLE.compare_items.show_results {
+  position:relative;
+  top: -17px;
+  font-size: 8pt;
+}
+
+TH.compare_items.show_results {
+  border: 1px solid black;
+}
+
+TH.compare_items.show_results.file1 {
+  background-color: #CC66CC;
+}
+
+TH.compare_items.show_results.file2 {
+  background-color: #66CC99;
+}
+
+DIV.compare_items.show_results.dir_output {
+  right: 5px;
+  left: 5px;
+  height: 18px;
+}
+
+DIV.compare_items.show_results.file_output {
+  right: 5px;
+  left: 5px;
+  height: 18px;
+}
+
+DIV.compare_items.show_results.size_output {
+  right: 5px;
+  left: 5px;
+  height: 18px;
+}
+
+DIV.compare_items.show_results.left.output {
+  position: absolute;
+  width: 50%;
+}
+
+DIV.compare_items.show_results.right.output {
+  position: absolute;
+  left: 51%;
+}

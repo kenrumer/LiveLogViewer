@@ -1,0 +1,363 @@
+
+div.common.panel.search {
+  height: 102px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+}
+
+div.common.panel.output {
+  top: 107px;
+  width: 200px;
+  bottom: 160px;
+  left: 0px;
+  overflow: auto;
+}
+
+div.common.panel.menu {
+  bottom: 0px;
+  height: 155px;
+  left: 0px;
+  width: 200px;
+}
+
+div.common.panel.right_top {
+  left: 205px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div.common.panel.item_details {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div.common.panel.item_list {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div.common.panel.item_details_frame {
+  left: 0px;
+  top: 305px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div.common.content.search {
+  background-color: #002C94;
+}
+
+select.infrastructure_management.search.type {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 24px;
+}
+
+input.infrastructure_management.search.textbox {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  width: 170px;
+  height: 20px;
+}
+
+input.infrastructure_management.search.button {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 27px;
+  left: 175px;
+  width: 24px;
+  height: 24px;
+}
+
+select.infrastructure_management.search.recent_searches {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 54px;
+  left: 0px;
+  width: 100%;
+  height: 24px;
+}
+
+div.content.nav_explorer {
+  background-color: white;
+}
+
+div.folder_panel.nowrap {
+  white-space:nowrap;
+}
+
+img.folder_panel.icon {
+  border: none;
+  height: 14px;
+  width: 14px;
+}
+
+div.common.title {
+  width: 100%;
+}
+
+img.common.blue_steel.title.icon {
+  border: none;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  top: 1px;
+  right: -5px;
+}
+
+img.folder_panel.expand {
+  height: 13px;
+  width: 9px;
+}
+
+a.folder_panel {
+  cursor: default;
+}
+
+a.folder_panel.text {
+  position: relative;
+  top: -4px;
+  text-decoration: none;
+  font-size: 8pt;
+  font-family: Arial;
+  color: black;
+  background-color: white;
+}
+
+a.folder_panel.text.selected {
+  color: #FFFFFF;
+  background-color: #316AC5;
+}
+
+a.folder_panel.text:hover {
+  text-decoration: underline;
+}
+
+tr.object_list {
+  white-space: nowrap;
+  border-bottom: 1px solid #00FFFF;
+}
+
+tr.object_list.hover {
+  text-decoration: underline;
+}
+
+tr.object_list.selected {
+  color: #FFFFFF;
+  background-color: #316AC5;
+}
+
+div.folder_panel.my_server_root_group.context_menu {
+  width: 150px;
+  height: 67px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
+
+div.folder_panel.my_server_group.context_menu {
+  width: 150px;
+  height: 134px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
+
+div.folder_panel.server_group.context_menu {
+  width: 150px;
+  height: 201px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
+
+div.folder_panel.server.context_menu {
+  width: 150px;
+  height: 172px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
+
+div.show_item_list_panel.server.context_menu {
+  width: 150px;
+  height: 153px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+  z-index: 1000;
+}
+
+body.infrastructure_management.output {
+  height: 100%;
+  background-color: white;
+}
+
+div.infrastructure_management.nav_menu {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: 155px;
+  left: 0px;
+}
+
+a.infrastructure_management.menu_item {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  height: 31px;
+  left: 0px;
+  text-indent:2px;
+  font-size:9pt;
+  font-family:Arial;
+  font-weight:bold;
+  background-repeat:repeat-x;
+  text-decoration:none;
+  color:black;
+}
+
+span.infrastructure_management.menu_item.align_middle {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: 7px;
+}
+
+a.infrastructure_management.menu_item.A {
+  top: 0px;
+}
+
+a.infrastructure_management.menu_item.B {
+  top: 31px;
+}
+
+a.infrastructure_management.menu_item.C {
+  top: 62px;
+}
+
+a.infrastructure_management.menu_item.D {
+  top: 93px;
+}
+
+a.infrastructure_management.menu_item.E {
+  top: 124px;
+}
+
+iframe.infrastructure_management.output_frame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+iframe.infrastructure_management.details_frame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+select.infrastructure_management.available_items {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 278px;
+  height: 264px;
+}
+
+select.infrastructure_management.denied_available_items {
+  position: absolute;
+  top: 300px;
+  left: 5px;
+  width: 278px;
+  height: 264px;
+}
+
+input.infrastructure_management.move_item {
+  position: absolute;
+  left: 285px;
+  top: 125px;
+  width: 16px;
+  height: 16px;
+}
+
+input.infrastructure_management.denied_move_item {
+  position: absolute;
+  left: 285px;
+  top: 410px;
+  width: 16px;
+  height: 16px;
+}
+
+input.infrastructure_management.remove_item {
+  position: absolute;
+  left: 285px;
+  top: 145px;
+  width: 16px;
+  height: 16px;
+}
+
+input.infrastructure_management.denied_remove_item {
+  position: absolute;
+  left: 285px;
+  top: 430px;
+  width: 16px;
+  height: 16px;
+}
+
+select.infrastructure_management.items_in_group {
+  position: absolute;
+  top: 15px;
+  left: 303px;
+  width: 278px;
+  height: 264px;
+}
+
+select.infrastructure_management.denied_items_in_group {
+  position: absolute;
+  top: 300px;
+  left: 303px;
+  width: 278px;
+  height: 264px;
+}
+
+div.item_header {
+  width: 100%;
+  background-color: blue;
+}

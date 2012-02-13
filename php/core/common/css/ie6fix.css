@@ -1,0 +1,22 @@
+  html, 
+    body {
+      background:url(foo) fixed;
+    }
+  #header, 
+    #footer { 
+      position:absolute; 
+      z-index:10; 
+    }
+  #header {
+    top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop : document.body.scrollTop)
+  }
+  #wrap, 
+    #content-wrap {
+      height:100%;
+    }
+  #content {
+    padding:6em 1em;
+  } 
+  #footer {
+    top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop +(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+  }

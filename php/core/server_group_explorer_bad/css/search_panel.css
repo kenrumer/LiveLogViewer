@@ -1,0 +1,592 @@
+
+DIV.search_panel.toggle_bar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 10px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #A2C2EE;
+  overflow: hidden;
+}
+
+FORM.search_panel.search_form {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+DIV.search_panel.toggle_bar.colapsed {
+  background-image: url(/file_explorer/images/search_panel_toggle_bar_colapsed.png);
+}
+
+DIV.search_panel.toggle_bar.show {
+  background-image: url(/file_explorer/images/search_panel_toggle_bar_expanded.png);
+}
+
+DIV.search_panel.toggle_bar:hover {
+  background-color: #FEDB90;
+}
+
+DIV.search_panel.top_middle {
+  position: absolute;
+  background-color: #D6DFF7;
+  background-image: url(/file_explorer/images/search_panel_top_middle.png);
+  background-repeat: repeat-x;
+  background-position: left 0px;
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  height: 8px;
+}
+
+DIV.search_panel.right {
+  position: absolute;
+  background-color: #D6DFF7;
+  background-image: url(/file_explorer/images/search_panel_right.png);
+  background-repeat: repeat-x;
+  background-position: right 0px;
+  right: 0px;
+  top: 10px;
+  bottom: 0px;
+  width: 8px;
+}
+
+DIV.search_panel.bottom_middle {
+  background-image: url(/file_explorer/images/search_panel_bottom_middle.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 8px;
+}
+
+DIV.search_panel.left {
+  positon: absolute;
+  background-color: #D6DFF7;
+  background-image: url(/file_explorer/images/search_panel_left.png);
+  background-repeat: repeat-y;
+  background-position: left 0px;
+  left: 0px;
+  width: 8px;
+  top: 10px;
+  bottom: 0px;
+}
+
+DIV.search_panel.bottom_left {
+  background-image: url(/file_explorer/images/search_panel_bottom_left.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  left: 0px;
+  height: 8px;
+  width: 8px;
+  bottom: 0px;
+}
+
+DIV.search_panel.bottom_right {
+  background-image: url(/file_explorer/images/search_panel_bottom_right.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  right: 0px;
+  height: 8px;
+  width: 8px;
+  bottom: 0px;
+}
+
+DIV.search_panel.top_left {
+  background-image: url(/file_explorer/images/search_panel_top_left.png);
+  background-repeat: no-repeat;
+  background-position: left 0px;
+  position: absolute;
+  left: 0px;
+  height: 8px;
+  width: 8px;
+  top: 10px;
+}
+
+DIV.search_panel.top_right {
+  background-image: url(/file_explorer/images/search_panel_top_right.png);
+  background-repeat: no-repeat;
+  background-position: right 0px;
+  position: absolute;
+  right: 0px;
+  height: 8px;
+  width: 8px;
+  top: 10px;
+}
+
+DIV.search_panel.toggle_area {
+  top: 0px;
+  display: none;
+  overflow: hidden;
+  background-color: #D6DFF7;
+}
+
+DIV.search_panel.middle {
+  background-color: #D6DFF7;
+  padding: 8px 8px 8px 8px;
+  left: 0px;
+  right: 0px;
+  top: 10px;
+  font-size: 7pt;
+}
+
+.full_width {
+  width: 100%;
+}
+
+DIV.search_panel.title {
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+
+DIV.search_panel.name {
+  position: relative;
+  top: 13px;
+  left: 0px;
+}
+
+DIV.search_panel.name.input {
+  position: relative;
+  left: 0px;
+  width: 100%;
+}
+
+DIV.search_panel.text {
+  position: relative;
+  top: 13px;
+  left: 0px;
+}
+
+DIV.search_panel.text.input {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+}
+
+DIV.search_panel.server {
+  position: relative;
+  top: 10px;
+  left: 0px;
+}
+
+DIV.search_panel.server.select {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 72px;
+}
+
+DIV.search_panel.path {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+DIV.search_panel.path.select {
+  position: relative;
+  top: -5px;
+  left: 0px;
+  right: 0px;
+}
+
+DIV.search_panel.date_panel.row1 {
+  position: relative;
+  width: 100%;
+  height: 16px;
+}
+
+DIV.search_panel.date_panel.title {
+  position: absolute;
+  font-weight: bold;
+  top: 0px;
+  left: 0px;
+}
+
+A.search_panel.date_panel.expand {
+  position: absolute;
+  top: 0px;
+  width: 18px;
+  height: 16px;
+  right: 0px;
+  background-image: url(/file_explorer/images/search_view_compressed.png);
+}
+
+A.search_panel.date_panel.expand:hover {
+  background-image: url(/file_explorer/images/search_view_compressed_hover.png);
+}
+
+A.search_panel.date_panel.expand:active {
+  background-image: url(/file_explorer/images/search_view_compressed_mouse_down.png);
+}
+
+A.search_panel.date_panel.expand.expanded {
+  background-image: url(/file_explorer/images/search_view_expanded.png);
+}
+
+A.search_panel.date_panel.expand.expanded:hover {
+  background-image: url(/file_explorer/images/search_view_expanded_hover.png);
+}
+
+A.search_panel.date_panel.expand.expanded:active {
+  background-image: url(/file_explorer/images/search_view_expanded_mouse_down.png);
+}
+
+
+DIV.search_panel.date_panel.row2 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.radio_button0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.date_panel.radio_button0.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.date_panel.row3 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.radio_button1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.date_panel.radio_button1.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.date_panel.row4 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.radio_button2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.date_panel.radio_button2.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.date_panel.row5 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.radio_button3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.date_panel.radio_button3.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.date_panel.row6 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.radio_button4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.date_panel.radio_button4.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.date_panel.row7 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.from {
+  position: absolute;
+  top: 3px;
+  height: 20px;
+  left: 30px;
+}
+
+INPUT.search_panel.date_panel.from_select {
+  position: absolute;
+  top: 0px;
+  height: 18px;
+  left: 60px;
+  width: 100px;
+}
+
+DIV.search_panel.date_panel.row8 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.date_panel.to {
+  position: absolute;
+  top: 3px;
+  height: 20px;
+  left: 30px;
+}
+
+INPUT.search_panel.date_panel.to_select {
+  position: absolute;
+  top: 0px;
+  height: 16px;
+  left: 60px;
+  width: 100px;
+}
+
+DIV.search_panel.size_panel.row1 {
+  position: relative;
+  top: 4px;
+  width: 100%;
+  height: 16px;
+}
+
+DIV.search_panel.size_panel.title {
+  position: absolute;
+  font-weight: bold;
+  top: 0px;
+  left: 0px;
+}
+
+A.search_panel.size_panel.expand {
+  position: absolute;
+  top: 0px;
+  width: 18px;
+  height: 16px;
+  right: 0px;
+  background-image: url(/file_explorer/images/search_view_compressed.png);
+}
+
+A.search_panel.size_panel.expand:hover {
+  background-image: url(/file_explorer/images/search_view_compressed_hover.png);
+}
+
+A.search_panel.size_panel.expand:active {
+  background-image: url(/file_explorer/images/search_view_compressed_mouse_down.png);
+}
+
+A.search_panel.size_panel.expand.expanded {
+  background-image: url(/file_explorer/images/search_view_expanded.png);
+}
+
+A.search_panel.size_panel.expand.expanded:hover {
+  background-image: url(/file_explorer/images/search_view_expanded_hover.png);
+}
+
+A.search_panel.size_panel.expand.expanded:active {
+  background-image: url(/file_explorer/images/search_view_expanded_mouse_down.png);
+}
+
+DIV.search_panel.size_panel.row2 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button0.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row3 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button1.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row4 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button2.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row5 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button3.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row6 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button4.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row7 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 18px;
+}
+
+DIV.search_panel.size_panel.radio_button5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+DIV.search_panel.size_panel.radio_button5.text {
+  position: absolute;
+  top: 3px;
+  height: 18px;
+  left: 21px;
+}
+
+DIV.search_panel.size_panel.row8 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 20px;
+}
+
+SELECT.search_panel.size_panel.type_select {
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  height: 18px;
+}
+
+INPUT.search_panel.size_panel.size_input {
+  position: absolute;
+  width: 45px;
+  top: 0px;
+  left: 105px;
+  height: 16px;
+}
+
+DIV.search_panel.submit {
+  position: relative;
+  left: 180px;
+  top: 4px;
+}

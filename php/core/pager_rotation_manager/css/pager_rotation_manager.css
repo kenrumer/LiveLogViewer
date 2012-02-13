@@ -1,0 +1,334 @@
+
+DIV.common.panel.top {
+  height: 20%;
+  left: -5px;
+  background: #FFFFFF;
+}
+
+SELECT.pager_rotation_manager.one_time.group {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  width: 250px;
+}
+
+SELECT.pager_rotation_manager.one_time.member {
+  position: relative;
+  left: 5px;
+  top: 10px;
+  width: 250px;
+}
+
+INPUT.pager_rotation_manager.one_time.save {
+  position: relative;
+  left: 5px;
+  top: 15px;
+}
+
+DIV.common.panel.bottom {
+  top: 20%;
+  left: -5px;
+  background: #FFFFFF;
+}
+
+DIV.pager_rotation_manager.rules.group_section {
+  position: relative;
+  height: 33px;
+  left: 5px;
+  width: 570px;
+  top: 5px;
+  border: 1px black solid;
+}
+
+SELECT.pager_rotation_manager.rules.group {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 250px;
+}
+
+SPAN.pager_rotation_manager.rules.current_member_text {
+  position: absolute;
+  left: 260px;
+  top: 5px;
+}
+
+INPUT.pager_rotation_manager.rules.current_member {
+  position: absolute;
+  left: 315px;
+  top: 5px;
+  width: 240px;
+}
+
+DIV.pager_rotation_manager.rules.member_section {
+  position: relative;
+  left: 5px;
+  height: 180px;
+  width: 570px;
+  top: 15px;
+  border: 1px black solid;
+}
+
+SELECT.pager_rotation_manager.rules.available_member {
+  position: absolute;
+  left: 5px;
+  top: 25px;
+  width: 250px;
+  height: 150px;
+}
+
+INPUT.pager_rotation_manager.rules.member.add_all_button {
+  position: absolute;
+  top: 50px;
+  left: 260px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.member.add_button {
+  position: absolute;
+  top: 75px;
+  left: 260px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.member.remove_button {
+  position: absolute;
+  top: 100px;
+  left: 260px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.member.remove_all_button {
+  position: absolute;
+  top: 125px;
+  left: 260px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.member.save_button {
+  position: absolute;
+  top: 150px;
+  left: 260px;
+  width: 50px;
+  height: 24px;
+}
+
+SELECT.pager_rotation_manager.rules.selected_member {
+  position: absolute;
+  left: 315px;
+  top: 25px;
+  width: 250px;
+  height: 150px;
+}
+
+SPAN.pager_rotation_manager.rules.member_subtitle {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+DIV.pager_rotation_manager.rules.admin_section {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  border: 1px black solid;
+  height: 180px;
+  width: 570px;
+}
+
+SPAN.pager_rotation_manager.rules.admin_subtitle {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+DIV.pager_rotation_manager.rules.info_section {
+  position: relative;
+  top: 20px;
+  left: 5px;
+  border: 1px black solid;
+  height: 180px;
+  width: 570px;
+}
+
+SPAN.pager_rotation_manager.rules.info_subtitle {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+DIV.pager_rotation_manager.rules.rules_section {
+  position: relative;
+  top: 25px;
+  left: 5px;
+  width: 570px;
+  height: 180px;
+  border: 1px black solid;
+}
+
+SELECT.pager_rotation_manager.rules.rule_name {
+  position: absolute;
+  left: 5px;
+  width: 500px;
+  height: 150px;
+  top: 20px;
+}
+
+INPUT.pager_rotation_manager.rules.rule_name.add_button {
+  position: absolute;
+  top: 25px;
+  left: 510px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.rule_name.edit_button {
+  position: absolute;
+  top: 50px;
+  left: 510px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.rule_name.delete_button {
+  position: absolute;
+  top: 75px;
+  left: 510px;
+  width: 50px;
+  height: 24px;
+}
+
+INPUT.pager_rotation_manager.rules.rule_name.save_button {
+  position: absolute;
+  top: 100px;
+  left: 510px;
+  width: 50px;
+  height: 24px;
+}
+
+DIV.pager_rotation_manager.rules.schedule_subtitle {
+  position: relative;
+  left: 5px;
+  top: 18px;
+}
+
+SPAN.pager_rotation_manager.rules.recurrence_text {
+  position: relative;
+  left: 5px;
+}
+
+INPUT.pager_rotation_manager.rules.recurrence_daily {
+  position: absolute;
+  left: 5px;
+  top: 40px;
+}
+
+SPAN.pager_rotation_manager.rules.recurrence_daily_text {
+  position: absolute;
+  left: 25px;
+  top: 40px;
+}
+
+INPUT.pager_rotation_manager.rules.recurrence_weekly {
+  position: absolute;
+  left: 5px;
+  top: 60px;
+}
+
+SPAN.pager_rotation_manager.rules.recurrence_weekly_text {
+  position: absolute;
+  left: 25px;
+  top: 60px;
+}
+
+INPUT.pager_rotation_manager.rules.recurrence_monthly {
+  position: absolute;
+  left: 5px;
+  top: 80px;
+}
+
+SPAN.pager_rotation_manager.rules.recurrence_monthly_text {
+  position: absolute;
+  left: 25px;
+  top: 80px;
+}
+
+SELECT.pager_rotation_manager.rules.recurrence_time {
+  position: absolute;
+  left: 5px;
+  top: 105px;
+  width: 80px;
+}
+
+INPUT.pager_rotation_manager.rules.start_date {
+  position: absolute;
+  left: 5px;
+  top: 130px;
+  width: 160px;
+}
+
+TABLE.calendar {
+  position: absolute;
+  right: 120px;
+  top: 5px;
+  border: 1px black solid;
+  background-color: #FBE694;
+}
+
+.calendar_title {
+  background-color: #9EBEF5;
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.calendarHeader { 
+  font-weight: bolder; 
+  text-decoration: none;
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border-bottom: 1px #CCCCCC solid;
+  border: none;
+  border-collapse: collapse;
+}
+
+.calendarToday { 
+  background-color: #FFFFFF;
+}
+
+INPUT.pager_rotation_manager.rules.validate_button {
+  position: absolute;
+  right: 5px;
+  bottom: 55px;
+  width: 50px;
+}
+
+INPUT.pager_rotation_manager.rules.cancel_button {
+  position: absolute;
+  right: 5px;
+  bottom: 30px;
+  width: 50px;
+}
+
+INPUT.pager_rotation_manager.rules.save_button {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 50px;
+}
+
+DIV.pager_rotation_manager.rules.schedule {
+  display: none;
+  position: relative;
+  left: 5px;
+  top: 30px;
+  width: 570px;
+  height: 200px;
+  border: 1px black solid;
+}

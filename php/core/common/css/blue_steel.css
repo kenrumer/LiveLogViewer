@@ -1,0 +1,50 @@
+body.blue_steel {
+  background-color: #C7DBFF;
+}
+
+div.blue_steel.panel {
+  border: 1px solid #002C94;
+}
+
+div.blue_steel.nav_menu {
+  border-top: 1px solid #002C94;
+}
+
+div.blue_steel.content.search {
+  background-color: #002C94;
+}
+
+div.blue_steel.title {
+  background-color: black;
+  background-image: url('/common/images/category_title.png');
+  background-repeat: repeat-x;
+  color: white;
+}
+
+div.blue_steel.content {
+  background-color: white;
+}
+
+a.blue_steel.menu_item:link {
+  background-image:url('/common/images/blue_steel_category_unselected.png');
+}
+
+a.blue_steel.menu_item:visited {
+  background-image:url('/common/images/blue_steel_category_unselected.png');
+}
+
+a.blue_steel.menu_item:hover {
+  background-image:url('/common/images/blue_steel_category_hover.png');
+}
+
+a.blue_steel.menu_item:active {
+  background-image:url('/common/images/blue_steel_category_selected_hover.png');
+}
+
+a.blue_steel.menu_item.selected {
+  background-image:url('/common/images/blue_steel_category_selected.png');
+}
+
+a.blue_steel.menu_item.selected:hover {
+  background-image:url('/common/images/blue_steel_category_selected_hover.png');
+}

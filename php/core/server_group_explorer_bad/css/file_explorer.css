@@ -1,0 +1,147 @@
+div.common.panel.left_top {
+  overflow-x: auto;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  bottom: 20px;
+}
+
+div.common.panel.left_bottom {
+  background-color: #D6DFF7;
+  overflow: hidden;
+  bottom: 0px;
+  left: 0px;
+  height: 15px;
+  width: 200px;
+}
+
+div.common.panel.right_top {
+  top: 0px;
+  bottom: 0px;
+  left: 205px;
+  right: 0px;
+}
+
+div.common.content.with_title {
+  overflow: auto;
+}
+
+div.common.panel.vitals {
+  margin-right: 2px;
+  margin-bottom: 2px;
+  top: 0px;
+  bottom: 75%;
+  left: 0px;
+  right: 50%;
+}
+
+div.common.panel.hardware {
+  margin-left: 2px;
+  margin-bottom: 2px;
+  top: 0px;
+  bottom: 75%;
+  left: 50%;
+  right: 0px;
+}
+
+div.common.panel.memory {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  top: 25%;
+  bottom: 50%;
+  left: 0px;
+  right: 0px;
+}
+
+div.common.panel.network {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  top: 50%;
+  bottom: 25%;
+  left: 0px;
+  right: 0px;
+}
+
+div.common.panel.filesystems {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  top: 75%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+div.folder_panel.nowrap {
+  white-space:nowrap;
+}
+
+img.folder_panel.icon {
+  height: 14px;
+  width: 14px;
+}
+
+img.folder_panel.expand {
+  height: 13px;
+  width: 9px;
+}
+
+a.folder_panel {
+  cursor: default;
+}
+
+a.folder_panel.text {
+  position: relative;
+  top: -4px;
+  text-decoration: none;
+  font-size: 8pt;
+  font-family: Arial;
+  color: black;
+}
+
+a.folder_panel.text:hover {
+  text-decoration: underline;
+}
+
+a.folder_panel.server.text {
+  font-weight: bold;
+}
+
+a.folder_panel.text.selected {
+  color: #FFFFFF;
+  background: #316AC5;
+}
+
+div.folder_panel.server.context_menu {
+  width: 150px;
+  height: 86px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+}
+
+div.folder_panel.directory.context_menu {
+  width: 150px;
+  height: 153px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+}
+
+div.folder_panel.file.context_menu {
+  width: 150px;
+  height: 134px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  display: none;
+}
+
+div.folder_panel.calendar {
+  display: none;
+}
+

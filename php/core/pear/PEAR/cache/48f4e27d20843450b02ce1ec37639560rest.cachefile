@@ -1,0 +1,20 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/p/calendar";}s:8:"_content";s:8:"Calendar";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"0.5.4";s:2:"st";s:4:"beta";s:1:"l";s:3:"PHP";s:1:"m";s:5:"dufuz";s:1:"s";s:72:"A package for building Calendar data structures (irrespective of output)";s:1:"d";s:637:"Calendar provides an API for building Calendar data structures. Using
+the simple iterator and its query API, a user interface can easily be
+built on top of the calendar data structure, at the same time easily connecting it
+to some kind of underlying data store, where event information is
+being held.
+
+It provides different calculation engines the default being based on
+Unix timestamps (offering fastest performance) with an alternative using PEAR::Date
+which extends the calendar past the limitations of Unix timestamps. Other engines
+should be implementable for other types of calendar (e.g. a Chinese Calendar based
+on lunar cycles).";s:2:"da";s:19:"2008-12-12 14:20:34";s:1:"n";s:531:"QA Release
+
+* fixed return by reference NOTICE in Decorator
+* fixed bug #8758: fixed Calendar_Week::thisYear() according the ISO-8601 standard
+* fixed bug #12542: Calendar_Util_Textual::orderedWeekdays() doesn't consider $firstDay
+* added new tests and fixed test to consider the CALENDAR_FIRST_DAY_OF_WEEK constant
+* fixed getWeekNInYear() in the PearDate engine with new Date package
+* request #2642: added Calendar::isToday() method
+* switched to package.xml v.2
+* updated header comment blocks according to the Coding Standards";s:1:"f";s:5:"54759";s:1:"g";s:38:"http://pear.php.net/get/Calendar-0.5.4";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.0.5.4.xml";}}}

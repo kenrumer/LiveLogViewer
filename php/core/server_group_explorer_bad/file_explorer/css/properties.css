@@ -1,0 +1,75 @@
+DIV.common.panel.left.top {
+  overflow-x: auto;
+  width: 290px;
+  bottom: 35px;
+}
+
+DIV.properties.window {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: gray;
+  display: none;
+}
+
+DIV.properties.panel {
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 375px;
+  height: 350px;
+}
+
+DIV.folder_panel.properties.general.header {
+  padding: 0px;
+  margin: 0px;
+  height: 24px;
+}
+
+DIV.folder_panel.properties.general.header.icon {
+  top: 12px;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+}
+
+IMG.folder_panel.properties.general.header.icon {
+  border: none;
+  height: 32px;
+  width: 32px;
+}
+
+DIV.folder_panel.properties.general.header.description {
+  position: absolute;
+  top: 12px;
+  width: 250px;
+  right: 28px;
+  font-size: 14pt;
+  border: 1px solid black;
+}
+
+DIV.folder_panel.properties.horizontal_rule {
+  border-bottom: 1px solid #9CBEE6;
+  margin: 2px 0px 2px 0px;
+  padding: 2px 0px 2px 0px;
+  background-color: #FFFFFF;
+  left: 6px;
+  right: 6px;
+  height: 1px;
+}
+
+DIV.folder_panel.properties.cancel_button {
+  position: absolute;
+  height: 24px;
+  right: 20px;
+  bottom: 8px;
+  width: 45px;
+}
